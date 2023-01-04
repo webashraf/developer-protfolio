@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-size: 1600px;
+}
+/* Primary stylee */
+.text-primary{
+    color: #FD6E0A;
+}
+.primary-button{
+    background-color: #FD6E0A;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: none;
+    padding: 18px 15px;
+}
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+}
+/*  */
+/* Header Navbar stylee */
+.main-header{
+    background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right, left;
+    padding: 0 80px;
+}
+.header-logo {
+    color: Dark 01;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61.28px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 230px;
+}
+nav div ul{
+    display: flex;
+    align-items: center;
+}
+nav div ul li{
+    list-style: none;
+    margin-left: 51px;
+}
+/* Banner styles */
+.banner{
+    margin: 51px 230px;
+    display: flex;
+    align-items: center;
+}
+.banner div h3{
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    margin-bottom: 20px;
+}
+.banner h1{
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    margin-bottom: 20px;
+}
+.banner p{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.contact-button{
+    border: 1px solid #FD6E0A;
+    height: 64px;
+    padding: 18px 24px;
+    background-color: #FFF8F3;
+}
+/*  */
+/*  */
+
+/* About me styles */
+main{
+    max-width: 1140px;
+    margin: 130px auto;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.about-section{
+    padding: 131px 156px;
+}
+.about-section p{
+    text-align: center;
+    padding: 30px 0;
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+}
+/*  */
